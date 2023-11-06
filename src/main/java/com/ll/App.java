@@ -7,7 +7,6 @@ import java.util.Scanner;
 import static java.lang.Integer.parseInt;
 
 public class App {
-
     Scanner sc;
     ArrayList<Quote> quotesList;
 
@@ -15,9 +14,6 @@ public class App {
         sc = new Scanner(System.in);
         quotesList = new ArrayList<>();
     }
-
-
-
     void run(){
         while(true){
             System.out.println("== 명언 앱 ==");
@@ -33,6 +29,7 @@ public class App {
                 delete(order);
             }else if(order.startsWith("수정?")){
                 delete(order);
+
             }
 
 
