@@ -1,10 +1,12 @@
 package com.ll;
 
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class App {
     ArrayList<Quote> quotesList = new ArrayList<>();
+
     void run(){
         Scanner sc = new Scanner(System.in);
         while(true){
@@ -28,6 +30,7 @@ public class App {
                 for(int i=0;i<quotesList.size();i++){
                     System.out.println(i + 1+ " / " + quotesList.get(i).writer + " / " + quotesList.get(i).quote);
                 }
+
             }
 
 
